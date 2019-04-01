@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches
 
-data=json.load(open("E:/python _course/5. Application 1 Build an Interactive Dictionary/1.1 data.json.json"))
+data=json.load(open("data.json"))
 def translate(word):
     word=word.lower()
     
@@ -30,6 +30,3 @@ if type(output)==list:
         print("*--> "+item)           
 else:
     print(output)
-    
-                   
-
